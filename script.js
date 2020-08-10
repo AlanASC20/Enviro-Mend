@@ -12,7 +12,9 @@
 
 // request.send();
 
-// fetch("https://cors-anywhere.herokuapp.com/https://swe-endangered-animals.appspot.com/single_country_data/?country_name=Azerbaijan")
+let urlCountry = "https://cors-anywhere.herokuapp.com/https://swe-endangered-animals.appspot.com/single_country_data/"
+
+// fetch(urlCountry)
 //     .then(response =>
 //         response.json()
 //     )
