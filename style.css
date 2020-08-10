@@ -1,4 +1,32 @@
-#map{
-    width: 1000px;
-    height: 1000px;
+body {
+    margin: 0;
+}
+
+#map {
+    height: calc(100vh - 110px);
+    width: 100vw;
+}
+
+.prac {
+    padding: 20px;
+}
+
+navbar{
+    display: flex;
+    background: #7bd389;
+    padding: 20px 50px;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.navspan a {
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    text-align: center;
 }

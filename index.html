@@ -10,22 +10,45 @@
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
+    <navbar>
+        <div class= left-side>
+            <div class="navElement">
+                <span class="navspan" id=""><a href=""></a></span>
+            </div>
+
+            <div class="navElement">
+                <span class="navSpan" id=""><a href=""></a></span>
+            </div>
+
+
+
+        </div>
+
+        <div class="right-side">
+            <div class="navElement">
+                <span class="navspan" id=""><a href=""></a></span>
+            </div>
+            
+            <div class="navElement">
+                <span class="navspan" id="y"><a href="">stuff</a></span>
+            </div>
+
+
+        </div>
+
+    </navbar>
     <div id="search">
-        <input type="text">
+    
+        <form class="prac"> 
+            <input type="text"id="search_bar"> 
+            <input type="button" value="Search Country" id="search_country">
+            <input type="button" value="Search Animal" id="search_animal">
+
+
+        </form>
     </div>
     <div id='map'></div>
-<script>
-// TO MAKE THE MAP APPEAR YOU MUST
-// ADD YOUR ACCESS TOKEN FROM
-// https://account.mapbox.com
-mapboxgl.accessToken = 'pk.eyJ1IjoiYWxhbmVzcGluYWwiLCJhIjoiY2tkb3RyYXZwMDlyODJzcDY1azVxb3dlbSJ9.7dCHehk-oD8U1Uu7RMmxJw';
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-center: [0,0], // starting position [lng, lat]
-zoom: 0.01 // starting zoom
-});
-</script>
+
 
     
 </body>
