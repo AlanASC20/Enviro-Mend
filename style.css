@@ -3,8 +3,8 @@ body {
 }
 
 #map {
-    height: calc(97vh - 106px);
-    width: 100vw;
+    height: calc(93vh - 120px);
+    width: 100%;
 }
 
 .prac {
@@ -47,6 +47,9 @@ span{
 .navElement{
     display:flex;
 
+}
+#search{
+    background-color: rgb(117,207,240);
 }
 
 
